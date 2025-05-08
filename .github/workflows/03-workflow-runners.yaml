@@ -13,6 +13,7 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Show os
+        shell: bash
         run: |
           echo "This job runs on a Windows runner"
           echo "Runner OS: $RUNNER_OS"
